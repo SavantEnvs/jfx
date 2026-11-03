@@ -1,0 +1,7 @@
+xpath count(//*) = 8
+xpath string(/root/@id) = r
+xpath sum(//list/i) = 60
+xpath string(//a:item[@n='2']) = two
+xpath count(//a:item) = 2
+xpath string(/root/t) = text & more
+xml-dump-bytes 183

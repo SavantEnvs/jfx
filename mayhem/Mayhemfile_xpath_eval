@@ -1,0 +1,10 @@
+project: savantenvs/jfx
+target: xpath_eval
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/xpath_eval/testsuite
+cmds:
+  - cmd: /mayhem/build/bin/xpath_eval
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/xpath_eval/xpath_eval.dict
+    timeout: 10

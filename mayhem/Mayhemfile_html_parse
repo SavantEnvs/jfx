@@ -1,0 +1,10 @@
+project: savantenvs/jfx
+target: html_parse
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/html_parse/testsuite
+cmds:
+  - cmd: /mayhem/build/bin/html_parse
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/html_parse/html_parse.dict
+    timeout: 10
