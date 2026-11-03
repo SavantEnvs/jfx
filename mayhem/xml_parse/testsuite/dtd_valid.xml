@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<!DOCTYPE note [<!ELEMENT note (to,body)><!ELEMENT to (#PCDATA)><!ELEMENT body (#PCDATA)><!ATTLIST note id ID #IMPLIED lang CDATA "en">]>
+<note id="n1"><to>x</to><body><![CDATA[a<b]]></body></note>

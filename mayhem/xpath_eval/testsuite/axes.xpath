@@ -1,0 +1,1 @@
+//list/i[. > 10 and . < 30]/following-sibling::*/preceding::comment() | //processing-instruction("pi") | //@*[starts-with(name(),"i")]

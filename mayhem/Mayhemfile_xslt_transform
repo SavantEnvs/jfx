@@ -1,0 +1,10 @@
+project: savantenvs/jfx
+target: xslt_transform
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/xslt_transform/testsuite
+cmds:
+  - cmd: /mayhem/build/bin/xslt_transform
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/xslt_transform/xslt_transform.dict
+    timeout: 10

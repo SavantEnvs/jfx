@@ -1,0 +1,13 @@
+html-dump:
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head><title>T</title></head>
+<body>
+<p>one</p>
+<p>two<b>bold<i>both</i></b><br></p>
+<ul>
+<li>x</li>
+<li>y</li>
+</ul>
+</body>
+</html>

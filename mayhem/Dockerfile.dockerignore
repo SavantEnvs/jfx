@@ -1,0 +1,5 @@
+# Bake the FULL repo (incl. .git history) into the commit image; drop only editor/OS noise.
+.DS_Store
+*.swp
+*~
+**/__pycache__/

@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<root xmlns:a="urn:a" id="r"><a:item n="1">one</a:item><a:item n="2">two</a:item><list><i>10</i><i>20</i><i>30</i></list><!-- c --><t>text &amp; more</t></root>
